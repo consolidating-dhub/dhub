@@ -2,10 +2,10 @@
 
 local L_50_ = loadstring(game:HttpGet(("https://raw.githubusercontent.com/RandomAdamYT/DarkHub_V4/main/UILIB")))()
 local L_51_ = L_50_:MakeWindow({
-	Name = "DARKHUB V4",
+	Name = "dhub",
 	HidePremium = false,
 	SaveConfig = true,
-	ConfigFolder = "DARKHUB"
+	ConfigFolder = "dhub_bb"
 })
 local L_52_;
 L_52_ = hookfunction(getrenv().xpcall, function()
