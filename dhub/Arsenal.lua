@@ -3,10 +3,10 @@
 
 local L_52_ = loadstring(game:HttpGet(("https://raw.githubusercontent.com/RandomAdamYT/DarkHub_V4/main/UILIB")))()
 local L_53_ = L_52_:MakeWindow({
-	Name = "DarkHub V4",
+	Name = "dhub",
 	HidePremium = false,
 	SaveConfig = true,
-	ConfigFolder = "DARKHUB_Arsenal"
+	ConfigFolder = "dhub_Arsenal"
 })
 for L_86_forvar0, L_87_forvar1 in pairs(getconnections(game:GetService("ScriptContext").Error)) do
 	L_87_forvar1:Disable()
